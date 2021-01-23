@@ -1,0 +1,13 @@
+.ApiSelector {
+    background-color: white;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.ApiSelector > .Buttons {
+    margin: 0.5rem 1rem 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+}

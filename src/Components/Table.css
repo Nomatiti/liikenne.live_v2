@@ -1,0 +1,22 @@
+.Table {
+    border: 1px solid #efefef;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border-bottom: 1px solid slategray;
+}
+
+.TableRow {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.TableRow:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+.TableCell {
+    padding: 0.5rem;
+}

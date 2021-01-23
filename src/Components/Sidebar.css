@@ -1,0 +1,72 @@
+.Sidebar {
+  position: absolute;
+  width: 20rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-radius: 0 1.5rem 1.5rem 0;
+  box-shadow: 0.5rem 0 1rem #0000005e;
+  padding: 1rem;
+  padding-top: 3rem;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+  grid-gap: 2rem;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  z-index: 10;
+}
+
+.Sidebar .hidden {
+  left: 25rem;
+}
+
+.ReturnButton {
+  height: 2.5rem;
+  width: 2.5rem;
+  border: solid 1px #f2f2f2;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+.ReturnButton:hover {
+  border: solid 1px #e7e7e7;
+  background-color: #ffffff;
+}
+
+.InfoBox {
+  text-align: left;
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  /*box-shadow: 0.5rem 0.5rem 0.75rem #00000017, -0.5rem -0.5rem 0.75rem white;*/
+}
+
+.InfoBoxHeader {
+  padding: 0.5rem;
+  margin: -0.5rem;
+  background-color: #bbdfff;
+  border-radius: 0.25rem 0.25rem;
+}
+
+.Bottombar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 0 -0.3rem 1rem #0000005e;
+  padding: 1rem;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+  right: 0;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(20rem, 1fr) );
+}

@@ -1,0 +1,31 @@
+.Databox {
+    text-align: left;
+    /*padding: 1rem;*/
+    border: 1px solid #e6e6e6;
+    /*margin: 1.5rem;*/
+    border-radius: 0.5rem;
+    background-color: white;
+    /*box-shadow: 0.5rem 0.5rem 0.75rem #00000017, -0.5rem -0.5rem 0.75rem white;*/
+}
+
+.DataboxHeader {
+    padding: 0.75rem;
+    margin: 0.5rem;
+    background-color: #bbdfff;
+    border-radius: 0.25rem 0.25rem;
+}
+.DataboxHeader > h2 {
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin: 0;
+    /*color: #282c34;*/
+}
+
+.DataboxBreadText {
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.WithoutHeader {
+    padding-top: 1rem;
+}

@@ -1,0 +1,35 @@
+.RoundButton {
+    height: 2.75rem;
+    border-radius: calc(2.75rem / 2);
+    padding: 0.5rem;
+    background-color: #eeeeee;
+    border: 3px solid white;
+    transition: all 100ms ease-in-out;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RoundButtonIcon {
+    font-size: 1.25rem;
+}
+
+.RoundButtonIcon > svg {
+    margin-right: 1rem;
+}
+
+.RoundButtonSelected {
+    border-color: #5fff5f;
+    border-width: 3px;
+    background-color: white;
+}
+
+.RoundButton:hover {
+    background-color: white;
+    border-color: #e0dfdf;
+}
+
+.RoundButtonSelected:hover {
+    border-color: #59e759;
+}

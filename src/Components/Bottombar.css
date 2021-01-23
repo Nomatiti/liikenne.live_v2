@@ -1,0 +1,17 @@
+.Bottombar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 0 -0.3rem 1rem #0000005e;
+  padding: 2.5rem;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+  right: 0;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(20rem, 1fr) );
+  grid-gap: 2rem;
+  z-index: 5;
+}

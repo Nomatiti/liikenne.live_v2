@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux'
+import store from "./Redux/store";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './index.css';
+import { Frontpage } from './Sites';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+          <Router>
+              <Switch>
+                  <Route exact path="/">
+                      <Frontpage />
+                  </Route>
+                  <Route path="/app">
+                      <App />
+                  </Route>
+              </Switch>
+          </Router>
+      </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
